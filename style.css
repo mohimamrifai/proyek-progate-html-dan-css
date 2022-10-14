@@ -122,6 +122,7 @@ a {
     padding: 10px 0;
     margin: 20px auto;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 
@@ -137,4 +138,48 @@ footer {
 footer ul li {
     list-style: none;
     margin-bottom: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .proyeks {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 670px){
+    .menu {
+        display: block;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .about {
+        padding: 30px;
+    }
+
+    .proyeks {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form .btn_kontak {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    footer ul {
+        margin-top: 20px;
+    }
 }
