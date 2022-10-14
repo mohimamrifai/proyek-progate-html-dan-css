@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+header h1 {
+    letter-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+}
+
+.links a {
+    opacity: .8;
+}
+
+.hero {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero img {
+    width: 400px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.hero .titik {
+    font-size: 70px;
+    color: rgb(206, 206, 13);
+    display: inline;
+}
+
+.hero h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #949090;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.about {
+    background-color: #dedede;
+    padding: 50px 100px;
+    text-align: center;
+}
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.proyek_container {
+    width: 100%;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.proyeks {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.formulir {
+    width: 100%;
+    background-color: #dedede;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.formulir h2 {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.form input, .form textarea {
+
+    border: none;
+    padding: 10px 15px;
+}
+
+.form .btn_kontak {
+    width: 50%;
+    background-color: orange;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+
+footer {
+    width: 100%;
+    padding: 30px;
+    background-color: #949090;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
